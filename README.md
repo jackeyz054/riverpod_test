@@ -4,6 +4,18 @@
 
 Riverpod是一個現在非常流行的狀態管理存取工具，對於開發Flutter狀態管理會是非常重要的課題
 
+## :link: 安裝
+
+[flutter_riverpod](https://pub.dev/packages/flutter_riverpod) :link:
+
+[riverpod_annotation](https://pub.dev/packages/riverpod_annotation) :link:
+
+* 以下這兩個要擺在dev_dependencies
+
+[build_runner](https://pub.dev/packages/build_runner) :link:
+
+[riverpod_generator](https://pub.dev/packages/riverpod_generator) :link:
+
 ## :mag_right: 介紹
 
 ### :point_right: 簡單舉個例子：假如我想要把主頁的資料傳遞給三個Route後的Page3，那在途中會經歷page1、page2、page3。
