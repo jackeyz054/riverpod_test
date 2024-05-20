@@ -250,7 +250,9 @@ class HomeRoutePage extends ConsumerWidget {
 8. **Steam形式 + build_runner 模型**
 
 #### :package: 1. 單一數據模型
-simple_Data_Provider.dart
+simple_Data_Provider.dart  
+
+
 simple_Data_Page.dart
 
 ```dart
@@ -317,7 +319,11 @@ class SimpleDataPage extends ConsumerWidget {
 
 #### :package: 2. 搭配build_runner建立單一數據模型
 simple_Data_Provider_buildRunner.dart
+
+
 simple_Data_Provider_buildRunner.g.dart
+
+
 simple_Data_BuildRunner_Page.dart
 
 >* build_runner指令 => **flutter pub run build_runner build --delete-conflicting-outputs**
@@ -389,6 +395,8 @@ class SimpleDataBuildRunnerPage extends ConsumerWidget {
 
 #### :package: 3. 多種變數數據模型
 multiple_Data_Provider.dart
+
+
 multiple_Data_Page.dart
 
 ```dart
@@ -496,7 +504,11 @@ class MultipleDataPage extends ConsumerWidget {
 
 #### :package: 4. 搭配build_runner建立多種變數數據模型
 mutiple_Data_BuildRunner_Page.dart
+
+
 mutiple_Data_Provider_buildRunner.g.dart
+
+
 mutiple_Data_Provider_buildRunner.dart
 
 ```dart
@@ -622,7 +634,11 @@ class MultipleDataBuildRunnerPage extends ConsumerWidget {
 
 #### :package: 5. int形式 + build_runner 模型
 int_Data_BuildRunner_Page.dart
+
+
 int_Data_BuildRunner.dart
+
+
 int_Data_BuildRunner.g.dart
 ```dart
 //int_Data_BuildRunner.dart
@@ -690,7 +706,11 @@ class _IntDataPageState extends ConsumerState<IntDataPage> {
 
 #### :package: 6. List形式 + build_runner 模型
 List_Data_BuildRunner.dart
+
+
 List_Data_BuildRunner.g.dart
+
+
 List_Data_BuildRunner_Page
 
 ```dart
@@ -769,7 +789,11 @@ class ListDataPage extends ConsumerWidget {
 
 #### :package: 7. Future形式 + build_runner 模型
 future_Data_BuildRunner.dart
+
+
 future_Data_BuildRunner.g.dart
+
+
 future_Data_BuildRunner_Page.dart
 
 * Riverpod提供一個強大的AsyncValue的方法可以製造等同像FutureBuilder()一樣效果的等待策略。
@@ -866,7 +890,11 @@ class FutureDataPage extends ConsumerWidget {
 
 #### :package: 8. Steam形式 + build_runner 模型
 steam_Data_BuilderRunner.dart
+
+
 steam_Data_BuilderRunner.g.dart
+
+
 steam_Data_BuildRunner_page.dart
 ```dart
 //steam_Data_BuilderRunner.dart
