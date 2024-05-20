@@ -20,7 +20,7 @@ Riverpod是一個現在非常流行的狀態管理存取工具，對於開發Flu
 
 ### :point_right: 簡單舉個例子：假如我想要把主頁的資料傳遞給三個Route後的Page3，那在途中會經歷page1、page2、page3。
 
-#### :hammer: 不使用RiverPod
+### :hammer: 不使用RiverPod
 * 那正常來說不使用任何狀態存取工具的話的寫法會是在主頁進行數值的傳遞經過push的方式把值一個一個往後推，這樣才能確保在同一Context進行同一個數值的傳遞。
 ```dart
 //page 1
