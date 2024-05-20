@@ -1,4 +1,4 @@
-# riverpod_test_buildrunner
+# riverpod_buildrunner
 
 **2024-05-20 edit by zhJackey**
 
