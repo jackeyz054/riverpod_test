@@ -37,7 +37,7 @@ class _MyWidget1State extends ConsumerState<MyWidget1> {
 
     ref.listen(s1NotifierProvider, (previous, next) {
       final s1Value = ref.watch(s1NotifierProvider);
-      print(s1Value);
+      debugPrint(s1Value.toString());
       // if (s1Value == 3) {
       //   showFinishDialog(s1Value);
       // }

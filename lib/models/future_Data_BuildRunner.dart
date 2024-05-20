@@ -1,8 +1,8 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-part 's3.g.dart';
+part 'future_Data_BuildRunner.g.dart';
 
 @riverpod
-class S3Notifier extends _$S3Notifier {
+class FutureDataNotifier extends _$FutureDataNotifier {
   @override
   Future<String> build() async {
     // 等待3秒

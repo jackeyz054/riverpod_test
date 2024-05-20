@@ -4,6 +4,14 @@ import 'package:riverpod_test_buildrunner/my_widget1.dart';
 import 'package:riverpod_test_buildrunner/my_widget2.dart';
 import 'package:riverpod_test_buildrunner/my_widget3.dart';
 import 'package:riverpod_test_buildrunner/my_widget4.dart';
+import 'package:riverpod_test_buildrunner/views/List_Data_BuildRunner_Page.dart';
+import 'package:riverpod_test_buildrunner/views/future_Data_BuildRunner_Page.dart';
+import 'package:riverpod_test_buildrunner/views/int_Data_BuildRunner_Page.dart';
+import 'package:riverpod_test_buildrunner/views/multiple_Data_Page.dart';
+import 'package:riverpod_test_buildrunner/views/mutiple_Data_BuildRunner_Page.dart';
+import 'package:riverpod_test_buildrunner/views/simple_Data_BuildRunner_Page.dart';
+import 'package:riverpod_test_buildrunner/views/simple_Data_Page.dart';
+import 'package:riverpod_test_buildrunner/views/steam_Data_BuildRunner_page.dart';
 
 void main() {
   const app = MyApp();
@@ -41,37 +49,73 @@ class HomePage extends StatelessWidget {
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const MyWidget1(),
+                  builder: (context) => const SimpleDataPage(),
                 ),
               ),
-              child: const Text('widget1'),
+              child: const Text('SimpleDataPage'),
             ),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const MyWidget2(),
+                  builder: (context) => const SimpleDataBuildRunnerPage(),
                 ),
               ),
-              child: const Text('widget2'),
+              child: const Text('SimpleDataBuildRunnerPage'),
             ),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const MyWidget3Page(),
+                  builder: (context) => const MultipleDataPage(),
                 ),
               ),
-              child: const Text('MyWidget3Page'),
+              child: const Text('MultipleDataPage'),
             ),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const MyWidget4Page(),
+                  builder: (context) => const MultipleDataBuildRunnerPage(),
                 ),
               ),
-              child: const Text('MyWidget4Page'),
+              child: const Text('MultipleDataBuildRunnerPage'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const IntDataPage(),
+                ),
+              ),
+              child: const Text('IntDataPage'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ListDataPage(),
+                ),
+              ),
+              child: const Text('ListDataPage'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const FutureDataPage(),
+                ),
+              ),
+              child: const Text('FutureDataPage'),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SteamDataPage(),
+                ),
+              ),
+              child: const Text('SteamDataPage'),
             ),
           ],
         ),

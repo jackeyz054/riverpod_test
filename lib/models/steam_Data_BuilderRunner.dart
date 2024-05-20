@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-part 's4.g.dart';
+part 'steam_Data_BuilderRunner.g.dart';
 
 @riverpod
-class S4Notifier extends _$S4Notifier {
+class SteamDataNotifier extends _$SteamDataNotifier {
   @override
   Stream<String> build() {
     // 每秒傳遞訊息 stream

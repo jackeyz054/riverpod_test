@@ -6,7 +6,7 @@ part of 's3.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$s3NotifierHash() => r'149224841406b70e6734f9dcbb51f056c2feb46d';
+String _$s3NotifierHash() => r'97969d155cb0022a2f58155cd58cb9e3cd943185';
 
 /// See also [S3Notifier].
 @ProviderFor(S3Notifier)

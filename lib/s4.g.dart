@@ -6,7 +6,7 @@ part of 's4.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$s4NotifierHash() => r'a1c3249eca553d6fb1023cd6651496e539d959f2';
+String _$s4NotifierHash() => r'475174bc995e59f95579be06a67775de0ea73985';
 
 /// See also [S4Notifier].
 @ProviderFor(S4Notifier)
